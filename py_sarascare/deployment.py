@@ -5,7 +5,6 @@ from .settings import BASE_DIR
 SECRET_KEY = os.environ['SECRET']
 
 ALLOWED_HOSTS = [os.environ['WEBSITE_HOSTNAME']]
-
 PORT = 8000
 
 CSRF_TRUSTED_ORIGINS = ['https://' + os.environ['WEBSITE_HOSTNAME']]
