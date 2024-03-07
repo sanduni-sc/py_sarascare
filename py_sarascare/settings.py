@@ -16,8 +16,6 @@ import os
 # BASE_DIR = Path(__file__).resolve().parent.parent
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-PORT = 8000
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
@@ -28,6 +26,7 @@ SECRET_KEY = "django-insecure-)yx#p758rd$v2f2y&saon1jzui!ojox@b=ad#(d$r$8pw!c5sw
 DEBUG = True
 
 ALLOWED_HOSTS = []  # Set this to your actual domain in production
+PORT = 8000
 
 SECURE_SSL_REDIRECT = True
 SESSION_COOKIE_SECURE = True
